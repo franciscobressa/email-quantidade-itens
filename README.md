@@ -5,13 +5,13 @@ Faz uma requisição da API de search da VTEX e, utilizando conceitos de process
 ## 1º PASSO
 Criar um arquivo .ENV com as informações do Mailtrap e do Redis
 
-MAIL_HOST=smtp.mailtrap.io
-MAIL_PORT=2525
-MAIL_USERNAME=
-MAIL_PASSWORD=
+MAIL_HOST=smtp.mailtrap.io<br/>
+MAIL_PORT=2525<br/>
+MAIL_USERNAME=<br/>
+MAIL_PASSWORD=<br/>
 
-REDIS_HOST=127.0.0.1
-REDIS_PORT=
+REDIS_HOST=127.0.0.1<br/>
+REDIS_PORT=<br/>
 
 ## 2º PASSO
 Rodar o container do Redis no Docker
