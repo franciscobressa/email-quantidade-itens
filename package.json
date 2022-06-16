@@ -1,0 +1,26 @@
+{
+    "name": "fila-node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "npm-run-all -p dev:*",
+        "dev:serve": "nodemon src/server.js",
+        "dev:queue": "nodemon src/queue.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "bull": "^4.8.4",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "nodemailer": "^6.7.5",
+        "npm-run-all": "^4.1.5"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.16",
+        "sucrase": "^3.21.0"
+    }
+}
